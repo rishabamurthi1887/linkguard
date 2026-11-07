@@ -1,0 +1,12 @@
+.auth-required .topbar,.auth-required .view{display:none!important}
+.auth-gate{width:min(440px,calc(100% - 30px));margin:10vh auto 8vh;padding:26px;border-radius:20px}
+.auth-gate h1{font:750 30px/1.2 Manrope,system-ui,sans-serif;letter-spacing:-1px;margin:10px 0}
+.auth-gate>p{color:var(--muted);font-size:14px;margin-bottom:20px}
+.auth-gate form{display:grid;gap:8px}
+.auth-gate form .button{margin-top:8px}
+.auth-gate .text-link{margin-top:12px;padding-left:0}
+.auth-gate .hint{line-height:1.5}
+.account-name{font-size:11px;color:var(--muted);max-width:100px;overflow:hidden;text-overflow:ellipsis}
+.danger{background:#7d2930;color:#fff;border-color:#a84850}
+body.light .danger{background:#9b2d37;color:#fff}
+#accountDialog form{display:grid;gap:10px}

@@ -1,0 +1,49 @@
+/* Light mode uses dark ink on every surface, including nested scan/report states. */
+body.light{--bg:#f2f5fa;--surface:rgba(255,255,255,.9);--surface2:#fff;--line:rgba(27,43,67,.14);--text:#182438;--muted:#53647b;--blue:#345f98;--accent:#315d97;--shadow:0 18px 50px rgba(48,67,93,.11);color-scheme:light;background:radial-gradient(ellipse at 48% -20%,#d9e7fb 0,transparent 48%),var(--bg)}
+body.light .glass{background:linear-gradient(145deg,rgba(255,255,255,.95),rgba(248,250,254,.9));border-color:rgba(40,60,88,.13);box-shadow:var(--shadow)}
+body.light .topbar{background:rgba(255,255,255,.96)}
+body.light .eyebrow{color:#38577f}
+body.light .hero h1 span,body.light .page-heading h1 span{color:#365e96}
+body.light .lead,body.light .how-section p,body.light .page-heading p{color:#4c5d73}
+body.light .text-link{color:#315680}
+body.light .trust-note,body.light .hint{color:#53647a}
+body.light .nav-item,body.light .top-actions select,body.light .icon-button{color:#40536c}
+body.light .nav-item.active,body.light .nav-item:hover{color:#192b44;background:#e8eef7}
+body.light .quick-card{color:#182438}
+body.light .quick-card small{color:#53647a}
+body.light .chevron{color:#52647c}
+body.light .tile-icon.blue{color:#315b91;background:#e4edfa}
+body.light .tile-icon.violet{color:#63448f;background:#eee7f8}
+body.light .tile-icon.teal{color:#17695e;background:#e1f3ef}
+body.light .tile-icon.amber{color:#76540e;background:#fff1ce}
+body.light .step{background:rgba(255,255,255,.9)}
+body.light .step span{color:#315d97}
+body.light .step small,body.light .privacy-banner p{color:#52647b}
+body.light footer{color:#566780}
+body.light footer button,body.light .back{color:#315d97}
+body.light .mode{color:#43556e}
+body.light .mode span{color:#315d97}
+body.light .mode.active,body.light .mode:hover{background:#e5edf8;color:#1d304a}
+body.light .scan-panel,body.light .mode-list{background:rgba(255,255,255,.96)}
+body.light .muted{color:#52647b}
+body.light .field-label{color:#293b53}
+body.light .input,body.light .textarea{background:#fff;color:#182438;border-color:#aebbd0}
+body.light .input::placeholder,body.light .textarea::placeholder{color:#718096;opacity:1}
+body.light .quiet{background:#e9eef5;color:#24364f;border-color:#cbd5e2}
+body.light .report-summary{background:#f0f4f9;color:#293c55}
+body.light .verdict p,body.light .evidence p,body.light .evidence small,body.light .report .hint{color:#52647b}
+body.light .evidence{background:#f6f8fb;border-left-color:#9a6b10}
+body.light .report ul{color:#34465f}
+body.light .pill{color:#425570;border-color:#cbd5e2;background:#f7f9fc}
+body.light .scam-card p{color:#465a73}
+body.light .scam-card .action{color:#293e59;border-color:#dbe2ec}
+body.light .scam-card small{color:#5a6b80}
+body.light .history-info small{color:#596a80}
+body.light .empty{color:#52647b;border-color:#b8c5d6}
+body.light .qr-box{border-color:#aab8cb}
+body.light .learn-callout p{color:#52647b}
+body.light dialog{background:#fff;color:#182438}
+body.light dialog p,body.light .check-row{color:#465a73}
+body.light .close{color:#465a73}
+body.light .toast{background:#20334e;color:#fff}
+body.light .error{color:#a4202d}

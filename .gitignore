@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+AGENTS.md
+linkguard.db
+*.sqlite3
+.test-*.db
+.http-test-*.db
+linkguard.log
+linkguard-error.log
